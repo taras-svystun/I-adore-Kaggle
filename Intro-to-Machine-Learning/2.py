@@ -1,6 +1,6 @@
 import pandas as pd
 
-iowa_file_path = 'Data\\Intro-to-Machine-Learning\\train.csv'
+iowa_file_path = 'I-adore-Kaggle/Data/Intro-to-Machine-Learning/train.csv'
 home_data = pd.read_csv(iowa_file_path)
 print(home_data.describe())
 

@@ -3,7 +3,7 @@ from sklearn.ensemble import RandomForestRegressor as RFR
 from sklearn.metrics import mean_absolute_error as MAE
 from sklearn.model_selection import train_test_split as TTS
 
-iowa_file_path = 'Data\\Intro-to-Machine-Learning\\train.csv'
+iowa_file_path = 'Data/Intro-to-Machine-Learning/train.csv'
 home_data = pd.read_csv(iowa_file_path)
 y = home_data.SalePrice
 

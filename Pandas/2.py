@@ -1,8 +1,8 @@
 import pandas as pd
 
 
-reviews = pd.read_csv("../input/wine-reviews/winemag-data-130k-v2.csv", index_col=0)
-reviews.head()
+reviews = pd.read_csv("Data/Pandas/winemag-data-130k-v2.csv", index_col=0)
+print(reviews.head())
 desc = reviews["description"]
 first_description = reviews.description.iloc[0]
 first_row = reviews.iloc[0, :]
