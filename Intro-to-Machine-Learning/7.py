@@ -24,9 +24,3 @@ print("Validation MAE for Random Forest Model: {:,.0f}".format(rf_val_mae))
 
 rf_model_on_full_data = RFR(random_state=10)
 rf_model_on_full_data.fit(X, y)
-# test_data_path = '../input/test.csv'
-
-# test_data = pd.read_csv(test_data_path)
-# test_X = test_data[features]
-
-# test_preds = rf_model_on_full_data.predict(test_X)
